@@ -1,0 +1,33 @@
+import { Ingredient } from './types';
+
+export const INGREDIENTS: Ingredient[] = [
+  {id: "id-1", type: "Herbs", name: "Basil", location: ["Brightwood", "Brimstone Sands", "Everfall"]},
+  {id: "id-2", type: "Herbs", name: "Cinnamon", location: ["Cutlass Keys", "Edengrove", "First Light"]},
+  {id: "id-3", type: "Herbs", name: "Dill", location: ["Edengrove", "First Light", "Mourningdale"]},
+  {id: "id-4", type: "Herbs", name: "Garlic", location: ["Brimstone Sands", "Everfall", "Great Cleave"]},
+  {id: "id-5", type: "Herbs", name: "Ginger", location: ["Ebonscale Reach", "Reekwater", "Windsward"]},
+  {id: "id-6", type: "Herbs", name: "Mint", location: ["Restless Shore", "Weaver's Fen", "Windsward"]},
+  {id: "id-7", type: "Herbs", name: "Nutmeg", location: ["First Light", "Great Cleave", "Weaver's Fen"]},
+  {id: "id-8", type: "Herbs", name: "Oregano", location: ["Monarch's Bluff", "Restless Shore", "Shattered Mountain"]},
+  {id: "id-9", type: "Herbs", name: "Paprika", location: ["Brightwood","Monarch's Bluff", "Shattered Mountain"]},
+  {id: "id-10", type: "Herbs", name: "Parsley", location: ["Cutlass Keys", "Edengrove", "Mourningdale"]},
+  {id: "id-11", type: "Herbs", name: "Peppercorn", location: ["Cutlass Keys", "Monarch's Bluff", "Mourningdale"]},
+  {id: "id-12", type: "Herbs", name: "Rosemary", location: ["Great Cleave", "Restless Shore", "Weaver's Fen"]},
+  {id: "id-13", type: "Herbs", name: "Saffron", location: ["Brightwood", "First Light", "Mourningdale"]},
+  {id: "id-14", type: "Herbs", name: "Sage", location: ["Brightwood", "Everfall", "Reekwater"]},
+  {id: "id-15", type: "Herbs", name: "Tarragon", location: ["Brightwood", "Brimstone Sands", "Reekwater"]},
+  {id: "id-16", type: "Herbs", name: "Thyme", location: ["Ebonscale Reach", "Reekwater", "Windsward"]},
+  {id: "id-17", type: "Provision Crate", name: "Apple", location: ["Brightwood", "Brimstone Sands", "Reekwater"]},
+  {id: "id-18", type: "Provision Crate", name: "Cauliflower", location: ["Edengrove", "First Light", "Mourningdale"]},
+  {id: "id-19", type: "Provision Crate", name: "Coconut", location: ["Restless Shore", "Weaver's Fen", "Windsward"]},
+  {id: "id-20", type: "Provision Crate", name: "Lemon", location: ["Great Cleave", "Restless Shore", "Weaver's Fen"]},
+  {id: "id-21", type: "Provision Crate", name: "Melon", location: ["First Light", "Great Cleave", "Weaver's Fen"]},
+  {id: "id-22", type: "Provision Crate", name: "Onion", location: ["Cutlass Keys", "Edengrove", "First Light"]},
+  {id: "id-23", type: "Provision Crate", name: "Orange", location: ["Cutlass Keys", "Edengrove", "Mourningdale"]},
+  {id: "id-24", type: "Provision Crate", name: "Rice", location: ["Monarch's Bluff", "Restless Shore", "Shattered Mountain"]},
+  {id: "id-25", type: "Provision Crate", name: "Salt", location: ["Brightwood", "Brimstone Sands", "Everfall"]},
+  {id: "id-26", type: "Provision Crate", name: "String Bean", location: ["Ebonscale Reach", "Everfall", "Reekwater"]},
+  {id: "id-27", type: "Provision Crate", name: "Sugar", location: ["Ebonscale Reach", "Reekwater", "Windsward"]},
+  {id: "id-28", type: "Provision Crate", name: "Tomato", location: ["Cutlass Keys", "Monarch's Bluff", "Mourningdale"]},
+  {id: "id-29", type: "Provision Crate", name: "Yeast", location: ["Brightwood", "Monarch's Bluff", "Shattered Mountain"]}
+];

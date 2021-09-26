@@ -1,25 +1,35 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { HomePage } from './pages/HomePage';
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+} from 'react-router-dom';
+import { mdTheme } from './theme/theme';
+import { ThemeProvider } from '@mui/material/styles';
+import { GatheringHeader } from './components';
+import { CssBaseline } from '@mui/material';
+import Container from '@mui/material/Container';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <>
+          <CssBaseline/>
+          <div className="App">
+              <ThemeProvider theme={mdTheme}>
+                  <GatheringHeader/>
+                  <Container>
+                      <Router>
+                          <Switch>
+                              <Route path={'/gathering'} exact>
+                                  <HomePage/>
+                              </Route>
+                          </Switch>
+                      </Router>
+                  </Container>
+              </ThemeProvider>
+          </div>
+      </>
   );
 }
 
