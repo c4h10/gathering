@@ -28,11 +28,11 @@ export const HomePage: React.FC = () => {
     const rowFiltering = () => {
         let result = [...refinedRows];
         if (filterName.length > 2) {
-            result = result.filter((el) => el.name.includes(filterName));
+            result = result.filter((el) => el.name.toLowerCase().includes(filterName.toLowerCase()));
         }
 
         if (filterRegion.length > 2) {
-            result = result.filter((el) => el.locations.includes(filterRegion));
+            result = result.filter((el) => el.locations.toLowerCase().includes(filterRegion.toLowerCase()));
         }
 
         return result;
